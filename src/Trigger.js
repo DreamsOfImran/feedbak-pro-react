@@ -3,7 +3,8 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import "./Trigger-Styles";
 
 import Modal from "./Modal";
-import FeedbackIcon from "./feedback.svg";
+// import FeedbackIcon from "./feedback.svg";
+import FeedbackIcon from "./feedbak-logo.svg";
 import CloseIcon from "./close.svg";
 
 class Trigger extends Component {

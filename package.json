@@ -1,24 +1,25 @@
 {
   "name": "feedbak-pro-react",
-  "version": "0.0.6",
+  "version": "0.0.2",
   "description": "Embeddable Feedback React component hooked up to an admin dashboard. The fastest way to start collecting feedback across your React projects! ⚡",
   "main": "dist/Feedback.js",
   "license": "MIT",
-  "author": "Imran Basha",
+  "author": "DreamsOfImran",
   "keywords": [
     "react-feedback",
     "feedback",
-    "feedbak-pro",
+    "feedbak",
     "feedback-form"
   ],
   "homepage": "https://feedbak.pro",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DreamsOfImran/feedbak-pro-react.git"
+    "url": "https://github.com/dreamsofimran/feedbak-pro-react"
   },
   "scripts": {
     "prepare": "rm -rf ./dist && yarn build",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch --production"
   },
   "peerDependencies": {
     "axios": "^0.19.2",
