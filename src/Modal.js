@@ -91,7 +91,7 @@ class Modal extends Component {
     };
 
     axios
-      .post("https://feedbak.pro/api/feedback", payload)
+      .post("https://api.feedbak.pro/feedback", payload)
       .then(() => {
         return;
       })
